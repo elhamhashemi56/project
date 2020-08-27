@@ -1,0 +1,397 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+      background-color: #13151A;
+  }
+  
+  .nav-container{
+    //   background-color: red;
+      display: flex;
+      justify-content: center;
+      
+      
+  }
+  
+  .nav-container-mobile{
+      /* border: 2px solid red; */
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    //   box-shadow: 0 5px 5px rgb(116, 114, 114);
+  }
+  
+  .nav-text-mobile{
+      color: white;
+  }
+  
+  .nav-mobile-items{
+      /* border: 1px solid white; */
+     /* margin-left: 10px;
+     margin-right: 10px; */
+    margin-right:10px;
+    margin-left: 10px;
+  }
+  
+  .nav-icon-mobile{
+      font-size: 20px;
+      color: white;
+      padding: 5px 5px;
+      text-align: center;
+      /* border: 1px solid red; */
+      display: block;
+  }
+  
+  .nav-link-mobile{
+  
+      text-decoration: none;
+      padding: 2px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      display: block;
+  }
+  
+  
+  
+  .nav-items {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      overflow: hidden;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      width: 100%;
+      box-shadow: 2px 2px 5px rgb(43, 41, 39);
+    }
+  
+  .nav-item{
+  
+      /* display: inline-block; */
+  }
+  
+  .nav-link{
+  
+      text-decoration: none;
+      padding: 15px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      display: block;
+  }
+  
+  
+  
+  .nav-link:hover{
+      text-decoration-line: underline;
+      color: white;
+  }
+  
+  .nav-icon{
+      color: #a63450;
+      padding: 15px 5px ;
+  }
+  
+  .header-container{
+      display: flex;
+      /* border: 2px solid red; */
+      
+  }
+    
+  
+  header{
+      background-color: #13151A;
+  }
+  
+  header h1{
+    //  font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Yesteryear', cursive;
+     color: #e5d94f;
+     font-size: 40px;
+    //  text-shadow: 5px 5px 3px rgb(65, 64, 64);
+  }
+  
+  .header-text{
+    //   border: 1px solid green;
+      padding: 20px;
+      padding-top: 70px;
+      padding-left: 50px;
+  }
+
+  .pheader{
+      color: white;
+     width: 70%;
+  }
+  
+  header img{
+    margin-top: 70px;
+    width:auto;
+    height:350px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    
+    padding-left: 20px;
+  }
+  
+  footer{
+      background-color: #0e2426;
+      height: 500px;
+      color: white;
+  }
+  
+  
+  
+  .hamburger{
+  
+      background-color: rgb(202, 206, 204);
+      width: 28px;
+      height: 2px;
+      margin: 4px 0;
+  }
+  
+  
+ 
+
+  
+ 
+
+.card2{
+    border-radius: 0;
+    border: none;
+}
+
+.card-text2{
+    width: 40%;
+    margin-left: 10rem;
+    font-size: large;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.card-title2{
+    margin-top: 7rem;
+    margin-left: 10rem;
+    font-size: 3rem;
+    color: rgb(235, 235, 93);
+}
+
+.gallery-titr{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+    color: #a63450;
+}
+
+.btn-color{
+    background-color: #a63450;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #e5d94f;
+    color: rgb(65, 64, 64);
+}
+
+.btn:active{
+    background-color: #a63450;
+}
+.btn:focus{
+    background-color:#a63450 ;
+}
+
+.card-gallery{
+    background-color: #131317;
+}
+
+.card-title-gallery{
+    color: #a63450; 
+}
+
+.card-text-gallery{
+    color: white;
+}
+
+
+.card-text3{
+    width: 30%;
+    margin-left: 10rem;
+   font-size: small;
+   color: rgb(116, 114, 114);
+}
+
+   .about{
+    //    width:79.9rem;
+    width:auto;
+       height: 70rem;
+       background-color: #13151A;
+       background-image:url(https://djbeaver.demos.wpbeaverbuilder.com/wp-content/uploads/sites/22/2016/03/dj-beaver-about-bg.jpg);
+      background-size: cover;
+       background-position: right top;
+      background-repeat: no-repeat;
+  }
+   
+
+  .form-class{
+    border: 7px solid #131317;
+    height: 25rem;
+    width: 37rem;
+    background-color: #131317;
+    margin-top: 5px;
+    padding-bottom: 40px;
+    
+}
+
+.form-class > h2{
+    color: rgb(85, 83, 83);
+    text-align: center;
+}
+
+.form-class > p{
+    color: rgb(85, 83, 83);
+    text-align: center;
+    padding: 3px;
+    padding-bottom: 10px;
+}
+
+.form-flex{
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.form-flex-items{
+    margin: 8px;
+    /* height:1rem; */
+    width: 250px;
+    background-color: rgb(85, 83, 83);
+
+}
+
+input[type="text"],input[type="datetime-local"],input[type="email"]{
+
+    width: 250px;
+    height: 30px;
+    border: none;
+}
+
+.reserv{
+    background-color: rgb(85, 83, 83);
+    width: 250px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: large;
+    
+
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.aaa{
+ width: 70%;
+}
+
+   
+
+ /* für Mobile */
+ @media screen and (max-width: 635px) {
+      
+    #nav-mobile{
+        display: block;
+    }
+
+    #nav-desktop{
+        display: none;
+    }
+
+    .header-container{
+        display: flex;
+        /* border: 2px solid red; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .card-text2{
+        width: 80%;
+        margin-left: 4rem;
+        font-size: large;
+        font-family: 'Arima Madurai', cursive;
+    }
+
+    .pheader{
+        color: white;
+       width: 90%;
+    }
+
+    
+}
+
+
+
+/* für Tablet */
+@media screen and (min-width:636px) and (max-width:992px){
+    #nav-mobile{
+        display: none;
+    }
+
+    #nav-desktop{
+        display: block;
+    }
+
+    .header-container{
+        display: flex;
+        /* border: 2px solid red; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .card-text2{
+        width: 80%;
+        margin-left: 10rem;
+        font-size: large;
+        font-family: 'Arima Madurai', cursive;
+    }
+
+
+   
+      
+
+}
+
+
+
+/* für Desktop */
+
+@media screen and (min-width: 993px) {
+
+    #nav-mobile{
+        display: none;
+    }
+
+    #nav-desktop{
+        display: block;
+    }
+ 
+
+}
+
+
+   
